@@ -1,0 +1,9 @@
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: rootpassword
+      POSTGRES_DB: shipping_db
+    ports:
+      - "5432:5432"
