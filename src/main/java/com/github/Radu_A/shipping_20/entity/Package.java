@@ -4,6 +4,7 @@ import java.util.UUID;
 
 import com.github.Radu_A.shipping_20.PackageStatusEnum;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
@@ -12,6 +13,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 
+@Entity
 public class Package {
 	
 	@Id
